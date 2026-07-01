@@ -146,7 +146,21 @@
       engagement in Wards 4 & 5, you can reach Tim using the form below.
     </p>
 
-    <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <form action="https://formspree.io/f/xbdvzzze" method="POST">
+    <input type="hidden" name="_subject" value="Website Contact – Tim O’Brien">
+
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+</form>
+
       <label for="name">Name</label>
       <input id="name" name="name" type="text" required>
 
